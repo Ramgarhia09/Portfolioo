@@ -1,0 +1,259 @@
+*{
+    background-color: #f1f1f1;
+      margin: 0;
+      padding: 0;
+      text-decoration: none;
+  }
+  
+  nav{
+display: flex;
+justify-content:space-between;
+align-items: center;
+padding: 1rem 1.5rem;
+box-shadow:2px 3px 2px #f1f1f1;
+  }
+  .Ramgarhia{
+    color: var(--primary-color);
+  }
+  ul {
+      margin: 0;
+      padding: 0;
+display: flex;
+justify-content: space-between;
+align-items: center;
+font-size: x-large;
+text-decoration:none;
+}
+li{
+  text-decoration: none;
+  color: black;
+}
+ul li {
+list-style-type: none;
+text-decoration: none;
+}
+ul li a:hover{ 
+color:black;
+text-decoration: none; 
+}
+.nav-item {
+margin-left: 2rem;
+}
+p{
+text-align: center;
+justify-content: center;
+font-size: xx-large;
+}
+pre{
+text-align: center;
+justify-content: center;
+font-size: xx-large;
+}
+pre{
+text-align:center; 
+justify-content: center;
+}
+h1{
+color: darkblue;
+text-align: center;
+justify-content: center;
+font-size: xx-large;
+}
+.icon{
+display: flex;
+justify-content: space-evenly;
+}
+.imG{
+text-align: center;
+justify-content: center;
+}
+.wrapper{
+      overflow:hidden;
+      justify-content: center;
+  }
+  .wrapper img{
+      width: 20%; height: 20%;
+      transition: scale 300ms;
+  }
+  .wrapper:hover img{
+      scale: 120%;
+  }
+  .skills{
+    text-align: center;
+    justify-content: center;
+  }
+ 
+  .skills-bar {
+padding: 25px 30px;
+}
+
+.skills-bar .bar {
+margin: 25px 0;
+}
+
+.skills-bar .bar .info span {
+font-size: 1rem;
+font-weight: 500;
+}
+
+.skills-bar .bar .info {
+margin-bottom: 8px;
+color: #000000;
+}
+
+.skills-bar .bar .progress-line {
+position: relative;
+height: 10px;
+width: 550px;
+background: #f0f0f0;
+border-radius: 10px;
+transform: scaleX(0);
+transform-origin: left;
+animation: animate 1s cubic-bezier(1, 0, 0.5, 1) forwards;
+}
+
+.bar .progress-line span {
+position: absolute;
+background: #25b79f;
+height: 100%;
+border-radius: 10px;
+transform: scaleX(0);
+transform-origin: left;
+animation: animate 1s 1s cubic-bezier(1, 0, 0.5, 1) forwards;
+}
+
+@keyframes animate {
+100% {
+transform: scaleX(1);
+}
+}
+
+.progress-line .html {
+width: 80%;
+}
+.progress-line .css {
+width: 70%;
+}
+.progress-line .bootstrap {
+width: 60%;
+}
+.progress-line .javascript {
+width: 50%;
+}
+.progress-line .c {
+width: 76%;
+}
+
+.bar .progress-line span::before {
+position: absolute;
+content: "";
+height: 0;
+right: 0;
+top: -12px;
+width: 0;
+border: 7px solid transparent;
+border-bottom-width: 0px;
+border-right-width: 0px;
+border-top-style: #f0f0f0;
+border-top-color: #f0f0f0;
+}
+
+.bar .progress-line span::after {
+position: absolute;
+right: 0;
+top: -28px;
+color: #07374a;
+font-size: 12px;
+font-weight: 700;
+background: #f0f0f0;
+padding: 1px 8px;
+border-radius: 3px;
+}
+
+.progress-line .html::after {
+content: "80%";
+}
+.progress-line .css::after {
+content: "70%";
+}
+.progress-line .bootstrap::after {
+content: "50%";
+}
+.progress-line .javascript::after {
+content: "50%";
+}
+.progress-line .c::after {
+content: "50%";
+}
+
+
+.progress-line .html {
+width: 70%;
+}
+.progress-line .css {
+width: 70%;
+}
+.progress-line .bootstrap {
+width: 50%;
+}
+.progress-line .javascript {
+width: 50%;
+}
+.progress-line .c {
+width: 60%;
+}
+
+.bar .progress-line span::before {
+position: absolute;
+content: "";
+height: 0;
+right: 0;
+top: -12px;
+width: 0;
+border: 7px solid transparent;
+border-bottom-width: 0px;
+border-right-width: 0px;
+border-top-style: #f0f0f0;
+border-top-color: #f0f0f0;
+}
+
+.bar .progress-line span::after {
+position: absolute;
+right: 0;
+top: -28px;
+color: #07374a;
+font-size: 12px;
+font-weight: 700;
+background: #f0f0f0;
+padding: 1px 8px;
+border-radius: 3px;
+}
+
+.progress-line .html::after {
+content: "70%";
+}
+.progress-line .css::after {
+content: "70%";
+}
+.progress-line .bootstrap::after {
+content: "50%";
+}
+.progress-line .javascript::after {
+content: "50%";
+}
+.progress-line .c::after {
+content: "70%";
+}
+
+
+button{
+font-size:large;
+white-space: 2px;
+justify-content: space-around;
+}
+
+.contact-content {
+width: 100%;
+font-size: 19px;
+text-decoration: none;
+}
